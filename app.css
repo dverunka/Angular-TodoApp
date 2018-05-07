@@ -1,0 +1,74 @@
+/* app css stylesheet */
+
+html {
+    font-family: Sans-Serif;
+    color: black;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.delete {
+    padding: 10px 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+label {
+    word-wrap: break-word;
+    max-width: 90%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: 2px solid #f5f5f5;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    height: 2.8em;
+    width: 100%;
+    margin: 2px 0;
+    color: black;
+    text-decoration: none;
+    border: 2px solid #f5f5f5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="button"] {
+    margin: 2px 0;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    color: #f25170;
+}
+
+input[type="button"]:hover {
+    color: #f25170;
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    font-weight: normal;
+    color: #f25170;
+}
